@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "quicksand";
+  color: #8b4513;
+  background-color: #f5f5dc;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav {
+  background-color: #808000;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav li {
+  margin-left: 20px;
+}
+
+nav a {
+  color: #f5f5dc;
+  text-decoration: none;
+  padding: 15px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: white;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  color: #f5f5dc;
+  background-color: #808000;
+  text-align: center;
+  font-weight: bold;
+}
+
+img {
+  border-radius: 25px;
+  font-size: 15px;
+  height: auto;
+  width: 50%;
+}
+
+.lukisan1 {
+  height: 20px;
+  margin: 15px;
+  padding: 20px;
+}
+
+.lukisan2 {
+  height: 20px;
+  margin: 10px;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+main {
+  position: relative;
+  width: 50%;
+  height: auto;
+}
+
+.raden-saleh {
+  position: absolute;
+  top: 10%;
+  left: 28%;
+  color: #8b4513;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.penangkapan {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  color: #8b4513;
+  font-size: 16px;
+  transform: translateX(-50%);
+}
+
+.kotak {
+  box-shadow: 0 4px 8px 0 #00000033;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 20px;
+}

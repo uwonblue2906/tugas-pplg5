@@ -1,0 +1,22 @@
+
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1{
+    color: green;
+    text-align: center;
+}
+
+.satu {
+    gap: 50px;
+    justify-content: center;
+    display: flex;
+}
+
+ol, ul {
+    padding: 10px;
+}
+
+ul {
+    margin: 5px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tata Letak 3 Foto</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f0f0f0;
+      }
+
+      .photo-container {
+        display: flex;
+        gap: 15px; /* Jarak antar foto */
+      }
+
+      .photo-container img {
+        width: 150px; /* Lebar foto */
+        height: 150px; /* Tinggi foto */
+        object-fit: cover; /* Memastikan foto tidak terdistorsi */
+        border-radius: 8px; /* Membuat sudut melengkung */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+      }
+
+      .description {
+        text-align: center;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #555;
+      }
+
+      .description-container {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="photo-container">
+      <img src="https://via.placeholder.com/150" alt="Foto 1" />
+      <img src="https://via.placeholder.com/150" alt="Foto 2" />
+      <img src="https://via.placeholder.com/150" alt="Foto 3" />
+    </div>
+    <div class="description-container">
+      <div class="description">Deskripsi Foto 1</div>
+      <div class="description">Deskripsi Foto 2</div>
+      <div class="description">Deskripsi Foto 3</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="icon" href="images/icon.jpg" />
+    <link rel="stylesheet" href="tutor.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="#"><h4>Dinda Aulia Azzahra</h4></a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#competence">Competence</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <article id="profile" class="card">
+          <figure>
+            <img src="images/wave to earth.jpg" alt="foto" />
+            <figcaption>
+              Nama<br />
+              <h5>Dinda Aulia Azzahra</h5>
+            </figcaption>
+            <figcaption>&nbsp;</figcaption>
+            <figcaption>
+              Email<br />
+              <h5>dindaauliaazzahra@smkwikrama.sch.id</h5>
+            </figcaption>
+            <figcaption>&nbsp;</figcaption>
+            <figcaption>
+              Status<br />
+              <h5>Pelajar</h5>
+            </figcaption>
+            <figcaption></figcaption>
+          </figure>
+        </article>
+      </aside>
+      <div id="content">
+        <article id="About" class="card">
+          <h2>
+            <span><mark>About</mark></span>
+          </h2>
+          <br /><br />
+          <p>
+            Hello, my name is Dinda Aulia Azzahra, i'm 15 y'o, i live at
+            Cikereteg, my hobbies are drawing, listening to music, and reading.
+          </p>
+        </article>
+        <article>
+          <h2>
+            <span><mark>Contact me</mark></span>
+          </h2>
+          <br /><br /><br />
+        </article>
+        <article>
+          <form>
+            Nama<br />
+            <input
+              id="ContactForm_contact-form-name"
+              name="name"
+              size="30"
+              type="text"
+              value=""
+              required
+            />
+            Email <br />
+            <input name="email" id="ContactForm_contact-form-name" />
+            <br />
+            Message
+            <textarea
+              name="message"
+              id="ContactForm_contact-form-name"
+            ></textarea
+            ><br />
+            <input
+              id="ContactForm_contact-form-submit"
+              type="submit"
+              value="Send"
+              onclick="alert"
+            />
+            ('Silahkan isi pesan!')<br /><br />
+          </form>
+        </article>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <h5 style="color: white">Dinda Aulia Azzahra - 2024</h5>
+      </div>
+    </footer>
+  </body>
+
+  <!-- <script>
+    window.onscroll = function () {
+      stickyNav();
+    };
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+
+    function stickyNav() {
+      if (window.pageYOffset >= sticky) {
+        navbar.style.position = "fixed";
+        navbar.style.top = "0";
+      } else {
+        navbar.style.position = "static";
+      }
+    }
+  </script> -->
+</html>
